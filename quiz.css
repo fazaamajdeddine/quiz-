@@ -72,5 +72,24 @@ form button{
     font-size: 25px;
     transition: background-color 0.2s ease-in-out;
 }
-
+form button:hover{
+    background-color: lightblue;
+}
+.echec{
+    animation: echec 0.3s ease-in-out;
+}
+@keyframes echec {
+    0%{
+        transform: translateX(0px);
+    }
+    33%{
+        transform: translateX(5px);
+    }
+    66%{
+        transform: translateX(-5px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+} 
 
